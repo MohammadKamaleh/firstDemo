@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-header {
+    background-color: #373741; /* Darker background */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%; /* Add rounded corners to the logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+    filter: brightness(90%) saturate(120%); /* Adjust brightness and saturation for better color */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Scale up the logo on hover for a subtle zoom effect */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #000000; /* Change to your desired hover color */
+}
+
+.btn-login {
+    background-color: #ffd700; /* Change to your desired button color */
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
